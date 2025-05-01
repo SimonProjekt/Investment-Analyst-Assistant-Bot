@@ -39,4 +39,4 @@ Projektet är skapat som ett MVP för att:
 ---
 
 ## 🚀 Quick Start
-Chatta med boten här: 🔗 (https://t.me/investment_analyst_assistant_bot)
+Chatta med boten här: 🔗 
