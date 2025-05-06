@@ -1,0 +1,12 @@
+version: "3.9"
+
+services:
+  investment-bot:
+    build: .
+    container_name: investment-bot
+    ports:
+      - "8000:8000"
+    environment:
+      - OPENAI_API_KEY=${OPENAI_API_KEY}
+      - TELEGRAM_BOT_TOKEN=${TELEGRAM_BOT_TOKEN}
+    restart: unless-stopped
